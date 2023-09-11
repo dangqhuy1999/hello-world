@@ -1,0 +1,722 @@
+    1  ifconfig
+    2  sudo apt install net-tools
+    3  sudo apt update; sudo apt upgrade
+    4  touch note.txt
+    5  --version
+    6  ifconfig
+    7  sudo apt install net-tools
+    8  sudo apt-get install net-tools
+    9  sudo apt-get update
+   10  sudo apt-get upgrade
+   11  ifconfig
+   12  sudo apt install net-tools
+   13  ifconfig
+   14  sudo apt update;sudo apt upgrade
+   15  ping 8.8.8.8
+   16  --version
+   17  -v
+   18  version
+   19  -help
+   20  sudo apt install ./mysql-workbench-community_8.0.32-1ubuntu22.10_amd64.deb 
+   21  sudo apt install mysql-workbench-community
+   22  sudo apt update
+   23  sudo apt install p7zip-full p7zip-rar
+   24  dotnet new console --use-program-main
+   25  dotnet run
+   26  docker-compose up
+   27  sudo docker-compose up
+   28  sudo docker exec -it mysql bash
+   29  sudo apt install gnupg2 software-properties-common apt-transport-https wget
+   30  wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+   31  sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+   32  sudo apt install code
+   33  code .
+   34  wget https://packages.microsoft.com/config/ubuntu/21.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+   35  sudo dpkg -i packages-microsoft-prod.deb
+   36  sudo apt-get update;   sudo apt-get install -y apt-transport-https &&   sudo apt-get update &&   sudo apt-get install -y dotnet-sdk-5.0
+   37  sudo apt-get update;   sudo apt-get install -y apt-transport-https &&   sudo apt-get update &&   sudo apt-get install -y dotnet-sdk-6.0
+   38  dotnet
+   39  dotnet --list-sdks
+   40  sudo apt remove --purge dotnet-sdk-5.0.408
+   41  sudo apt remove --purge dotnet-sdk-5.0
+   42  dotnet --list-sdks
+   43  sudo apt-get update;   sudo apt-get install -y apt-transport-https &&   sudo apt-get update &&   sudo apt-get install -y aspnetcore-runtime-6.0
+   44  dotnet
+   45  dotnet --infor
+   46  dotnet --info
+   47  sudo apt remove --purge dotnet-runtime-5.0
+   48  dotnet --info
+   49  LL
+   50  ll
+   51  sudo cd /Document
+   52  cd /Document
+   53  cd /Documents/
+   54  cd ./Documents/
+   55  ll
+   56  mkdir EF1
+   57  cd ./EF1
+   58  code .
+   59  sudo apt update
+   60  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+   61  sudo apt update
+   62  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+   63  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   64  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+   65  sudo apt update
+   66  apt-cache policy docker-ce
+   67  sudo apt install docker-ce
+   68  sudo systemctl status docker
+   69  sudo apt install docker-ce
+   70  sudo usermod -aG docker $huysudo apt install docker-compose
+   71  sudo apt install docker-compose
+   72  sudo docker
+   73  sudo docker -s
+   74  sudo docker -v
+   75  sudo docker-compose 
+   76  sudo docker ps
+   77  docker pull mysql:latest
+   78  sudo docker pull mysql:latest
+   79  docker images mysql
+   80  sudo docker images mysql
+   81  docker run --name mysql -p 3306:3306 -v mysql_volume:/var/lib/mysql/ -d -e "MYSQL_ROOT_PASSWORD=abc123" mysql
+   82  sudo docker run --name mysql -p 3306:3306 -v mysql_volume:/var/lib/mysql/ -d -e "MYSQL_ROOT_PASSWORD=abc123" mysql[B
+   83  sudo netstat -tlnup | grep -i 3306
+   84  sudo docker ps
+   85  docker exec -it mysql bash
+   86  sudo docker exec -it mysql bash
+   87  sudo docker logs
+   88  sudo docker logs mysql
+   89  sudo docker-compose ps
+   90  sudo apt update
+   91  sudo apt install mysql-workbench
+   92  sudo mysql-workbench 
+   93  7z e data.7z
+   94  sudo 7z e data.7z
+   95  sudo 7z e mysqlsampledatabase.zip 
+   96  pwd
+   97  sudo docker start mysql
+   98  sudo docker ps
+   99  dotnet tool install --global dotnet-ef
+  100  dotnet ef migrations list
+  101  sudo dotnet tool install --global dotnet-ef
+  102  sudo mysql-workbench 
+  103  sudo dotnet tool install --global dotnet-ef
+  104  sudo docker start mysql
+  105  sudo docker ps
+  106  dotnet new console --use-program-main
+  107  dotnet run
+  108  dotnet add package MySql.Data --version 8.0.32
+  109  sudo dotnet add package MySql.Data --version 8.0.32
+  110  dotnet add package MySql.Data.EntityFramework --version 8.0.32
+  111  dotsudo net add package MySql.Data.EntityFramework --version 8.0.32
+  112  sudo dotnet add package MySql.Data.EntityFramework --version 8.0.32
+  113  sudo dotnet add package Microsoft.EntityFrameworkCore
+  114  sudo dotnet add package Microsoft.EntityFrameworkCore.Design
+  115  sudo dotnet add package Microsoft.Extensions.DependencyInjection
+  116  sudo dotnet add package Microsoft.Extensions.Logging.Console
+  117  sudo dotnet add package Microsoft.EntityFrameworkCore.Design
+  118  sudo dotnet add package Microsoft.EntityFrameworkCore.Tools.DotNet
+  119  dotnet tool install --global dotnet-ef
+  120  sudo dotnet add package MySql.EntityFrameworkCore --version 7.0.0
+  121  sudo docker images
+  122  sudo docker start mysql
+  123  dotnet run
+  124  dotnet ef migrations add V1
+  125  dotnet ef migrations remove
+  126  dotnet ef list
+  127  dotnet ef migrations list
+  128  dotnet ef migrations add V1
+  129  dotnet ef migrations list
+  130  dotnet ef database update
+  131  dotnet ef migrations add V1
+  132  dotnet ef migrations add V2
+  133  sudo dotnet ef database update
+  134  dotnet ef database update
+  135  code .
+  136  code .
+  137  sudo mysql-workbench 
+  138  dotnet ef migrations remove
+  139  dotnet ef migrations add V2
+  140  sudo dotnet ef database update
+  141  dotnet ef database update
+  142  dotnet ef migrations add V3
+  143  dotnet ef migrations list
+  144  dotnet ef migrations add V3
+  145  dotnet ef database update
+  146  python
+  147  sudo apt update
+  148  sudo apt install python3
+  149  python
+  150  sudo apt upgrade 
+  151  ps
+  152  sudo su
+  153  python
+  154  ping 8.8.8.8 -t
+  155  ping 8.8.8.8 --t
+  156  ping --t 8.8.8.8
+  157  ping -t 8.8.8.8
+  158  ping  8.8.8.8
+  159  ping 8.8.8.8
+  160  touch note.txt
+  161  vim note.txt 
+  162  vi note.txt 
+  163  ifconfig
+  164  docker
+  165  docker ps
+  166  sudo docker ps -a
+  167  ll
+  168  git
+  169  git --version
+  170  ifconfig
+  171  ping 8.8.8.8 -t
+  172  ping 8.8.8.8
+  173  reboot
+  174  ping 8.8.88.
+  175  ping 8.8.8.8
+  176  ll
+  177  cd Downloads/
+  178  ll
+  179  zip -r 'Python Devops.zip'
+  180  zip -r 'Python Devops.zip' PythonDevOps
+  181  zip
+  182  cd Downloads/
+  183  ll
+  184  zip -r PythonDevops.zip PythonDevops
+  185  zip -r PythonDevops.zip . -i PythonDevops
+  186  uname -a
+  187  zip -r PythonDevops.zip
+  188  pwd
+  189  zip -r PythonDevops.zip /home/huy/Documents/PythonDevOps/
+  190  cd /home/huy/Documents/PythonDevOps/
+  191  ll
+  192  unzip
+  193  zip -r PythonDevOps.zip ./Python\ Devops/
+  194  unzip PythonDevops.zip 
+  195  ll
+  196  python
+  197  python3
+  198  df
+  199  du
+  200  df
+  201  df -h
+  202  sudo apt install build-essential 
+  203  ll
+  204  cd Downloads/
+  205  ll
+  206  sudo bash VMware-Workstation-Full-17.0.2-21581411.x86_64.bundle 
+  207  su root
+  208  su-  root
+  209  su - root
+  210  sudo su
+  211  cd Downloads/
+  212  ll
+  213  sudo bash VMware-Workstation-Full-15.5.0-14665864.x86_64.bundle 
+  214  sudo su
+  215  sudo apt update
+  216  sudo apt install gcc build-essential 
+  217  ll
+  218  sudo bash VMware-Workstation-Full-15.5.0-14665864.x86_64.bundle 
+  219  cd /usr/bin
+  220  vmware-installer -l
+  221  git clone https://github. com/mkubecek/vmware-host-modules.git
+  222  cd vmware-host-modules
+  223  git checkout workstation-15.5.0
+  224  make
+  225  sudo make install
+  226  sudo vmware-modconfig --console --install-all
+  227  git clone https://github.com/mkubecek/vmware-host-modules
+  228  cd vmware-host-modules
+  229  git checkout workstation-15.5.6
+  230  su sudo
+  231  sudo su
+  232  sudo apt-get install build-essential linux-headers-$(uname -r) open-vm-dkms
+  233  touch fixfile
+  234  touch fixfile.txt
+  235  nano fixfile.txt
+  236  sudo su
+  237  sudo apt install build-essential linux-headers-$(uname -r)
+  238  cd Downloads/
+  239  sudo bash VMware-Workstation-Full-15.5.0-14665864.x86_64.bundle 
+  240  cd /usr/lib/vmware/modules/source/
+  241  ll
+  242  sudo tar xvf vmmon.tar
+  243  cd vmmon-only/
+  244  cd include/
+  245  ll
+  246  sudo gedit vm_asm_x86.h
+  247  cd ..
+  248  sudo make
+  249  cd ..
+  250  sudo tar xvf vmnet.tar
+  251  cd vmnet-only/
+  252  sudo make
+  253  ll
+  254  cd ..
+  255  sudo cp vmmon.o /lib/modules/`uname -r`/kernel/drivers/misc/vmmon.ko
+  256  sudo cp vmnet.o /lib/modules/`uname -r`/kernel/drivers/misc/vmnet.ko
+  257  sudo depmod -a
+  258  sudo systemctl restart vmware.service
+  259  systemctl status vmware.service
+  260  ll
+  261  cd vmnet-only/
+  262  ll
+  263  sudo ake
+  264  sudo make
+  265  sudo vmware-modconfig --console --install-all
+  266  git
+  267  git clone
+  268  git clone https://github.com/mkubecek/vmware-host-modules.git
+  269  sudo git clone https://github.com/mkubecek/vmware-host-modules.git
+  270  cd vmware-host-modules
+  271  sudo git checkout workstation-15.5.1
+  272  sudo git checkout workstation-15.5.0
+  273  sudo make
+  274  sudo make install
+  275  /etc/init.d/vmware start
+  276  sudo /etc/init.d/vmware start
+  277  sudo df -h
+  278  ping 192.168.256.128
+  279  ping 192.168.253.128
+  280  sudo su 
+  281  sudo cfdisk
+  282  sudo parted /dev/sda
+  283  df -h
+  284  lsblk
+  285  fdisk /dev/sda
+  286  sudo fdisk /dev/sda
+  287  lsblk
+  288  reboot
+  289  sudo su
+  290  df -h
+  291  sudo apt update
+  292  sudo apt upgrade
+  293  htop
+  294  sudo apt  install htop
+  295  htop
+  296  sudo apt install gcc build-essential
+  297  cd Downloads/
+  298  ll
+  299  sudo bash VMware-Workstation-Full-15.5.0-14665864.x86_64.bundle 
+  300  sudo git clone https://github.com/mkubecek/vmware-host-modules.git
+  301  cd vmware-host-modules
+  302  sudo git checkout workstation-15.5.0
+  303  sudo make
+  304  sudo make install
+  305  sudo /etc/init.d/vmware start
+  306  sudo su
+  307  touch Readme.txt
+  308  gedit Readme.txt 
+  309  whoami
+  310  ping 192.168.253.128
+  311  wine
+  312  ping 8.8.8.8
+  313  tar -xf FileZilla_3.65.0_x86_64-linux-gnu
+  314  tar -xf FileZilla_3.65.0_x86_64-linux-gnu.tar.xz 
+  315  ll
+  316  sudo mv FileZilla3 /opt/
+  317  sudo nano ~/.local/share/applications/FileZilla.desktop
+  318  sudo apt install filezilla
+  319  filezilla
+  320  sudo dpkg --add-architecture i386
+  321  sudo wget -nc -O /usr/share/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
+  322  sudo wget -nc -P /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/$(lsb_release -sc)/winehq-$(lsb_release -sc).sources
+  323  sudo apt update
+  324  sudo apt install --install-recommends winehq-stable
+  325  winecfg
+  326  sudo winecfg
+  327  sudo apt install --install-recommends winehq-stable
+  328  sudo apt install --install-recommends winehq-devel
+  329  sudo apt install -y wine-stable
+  330  sudo dpkg --add-architecture i386 
+  331  wget -O - https://dl.winehq.org/wine-builds/winehq.key | sudo apt-key add -
+  332  sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main'
+  333  sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main'
+  334  sudo apt update
+  335  sudo apt install --install-recommends winehq-stable
+  336  sudo apt install --install-recommends wine-stable
+  337  sudo apt install --install-recommends winehq-stable
+  338  winecfg
+  339  unzip MobaXterm_Installer_v23.2.zip 
+  340  wine
+  341  wine MobaXterm_installer_23.2.msi 
+  342  sudo apt-get install --reinstall xdg-utils
+  343  wine MobaXterm_installer_23.2.msi 
+  344  sudo apt -f install -y ./scrt-9.4.1-3102.ubuntu20-64.x86_64.deb 
+  345  scrt
+  346  sudo apt-get install --reinstall xdg-utils
+  347  cd /usr/bin/xdg-open
+  348  cd /usr/bin/
+  349  ll
+  350  xdg-open
+  351  xdg-open http://192.168.253.128/legacy/LAB1_DEVOPS_Python.unl/topology#
+  352  cd /usr/bin/
+  353  ll
+  354  uname -a
+  355  wine
+  356  wine MobaXterm_Personal_23.3_Preview2.exe 
+  357  cd ~/.local/share/applications/
+  358  vi mobaXtrem.desktop
+  359  nano mobaXtrem.desktop
+  360  sudo apt update
+  361  sudo apt install xfce4 xfce4-goodies -y
+  362  sudo apt install tightvncserver
+  363  vncserver
+  364  vncpasswd
+  365  vncserver -kill :1
+  366  mv ~/.vnc/xstartup ~/.vnc/xstartup.bak 
+  367  nano ~/.vnc/xstartup
+  368  chmod +x ~/.vnc/xstartup
+  369  vncserver -localhost
+  370  sudo apt-get install openssh-server
+  371  sudo systemctl enable ssh
+  372  sudo systemctl enable ssh --now
+  373  sudo systemctl start ssh
+  374  sudo ufw disable
+  375  sudo ufw status
+  376  htop
+  377  wine MobaXterm_Personal_23.3_Preview2.exe 
+  378  python3 -m pip install --user --upgrade pip
+  379  python3 -m pip --version
+  380  python3 -m pip install --user virtualenv
+  381  python3 -m venv venv
+  382  python3 -m venv env
+  383  sudo python3 -m venv env
+  384  python3 -m virtualenv venv
+  385  python3 --version
+  386  python3 -m pip install --user venv
+  387  source venv/bin/activate
+  388  which python
+  389  deactivate 
+  390  source venv/bin/activate
+  391  telnet 10.10.10.1
+  392  exit
+  393  nano get-pip.py
+  394  gedit get-pip.py
+  395  chmod -R  775 get-pip.py
+  396  ll
+  397  cd Downloads/MobaXterm-Portable/MobaXterm_Portable_v23.3_Preview2/
+  398  ll
+  399  wine MobaXterm_Personal_23.3_Preview2.exe 
+  400  sudo apt install python3-pip
+  401  python3 -m venv venv
+  402  python3 -m venv env
+  403  source venv/bin/activate
+  404  pip install pexpect
+  405  python
+  406  which python 
+  407  python --version
+  408  python3 --version
+  409  which python3 
+  410  virtualenv -p python3.6.9 P3.6.9
+  411  source P3.6.9/bin/activate
+  412  which python
+  413  exit() exit
+  414  q
+  415  end
+  416  exit
+  417  pip --version
+  418  pip3 --version
+  419  pip install --upgrade pip
+  420  pip3 install --upgrade pip
+  421  source venv/bin/activate
+  422  pip install paramiko
+  423  pip install pexpect
+  424  python
+  425  telnet 192.168.253.128 32770
+  426  cd ~/Documents/PythonDevOps/Python Devops/PythonCode/Telnetlib
+  427  cd Documents/PythonDevOps/Python Devops/PythonCode/Telnetlib
+  428  cd Documents/PythonDevOps/
+  429  cd Python\ Devops/
+  430  ll
+  431  cd PythonCode/
+  432  ll
+  433  cd Telnetlib/
+  434  ll
+  435  source P3.6.9/bin/activate
+  436  telnet 192.168.253.128 32770
+  437  ll
+  438  chmod 775 01_telnet_3.6.py 
+  439  ll
+  440  gedit 01
+  441  gedit 01_telnet_3.6.py 
+  442  touch 01_telnet_36.py 
+  443  gedit 01_telnet_36.py 
+  444  chmod 775 01_telnet_36.py 
+  445  ll
+  446  python2
+  447  python
+  448  virtualenv -p python2.7.17 P2.7.17
+  449  ll
+  450  source P3.6.9/bin/activate
+  451  python
+  452  deactivate 
+  453  source P2.7.17/bin/activate
+  454  python
+  455  pip install paramiko
+  456  pip install pexpect
+  457  deactivate 
+  458  source P3.6.9/bin/activate
+  459  pip install paramiko
+  460  pip install pexpect
+  461  telnet 192.168.253.128 32770 
+  462  telnet 192.168.253.128 32770
+  463  touch 01_telnet_3.6.py
+  464  gedit 01_telnet_3.6.py 
+  465  python
+  466  gedit 01_telnet_3.6.py 
+  467  python 01_telnet_3.6.py 
+  468  python 01_telnet_36.py 
+  469  python
+  470  deactivate 
+  471  source P2.7.17/bin/activate
+  472  gedit 01_telnet27.py
+  473  chmod 775 01_telnet27.py 
+  474  ll
+  475  python 01_telnet27.py 
+  476  gedit 01_telnet27.py 
+  477  cat 01_telnet27.py 
+  478  python 01_telnet27.py 
+  479  gedit 01_telnet27.py 
+  480  cat 01_telnet27.py 
+  481  python 01_telnet27.py 
+  482  python 01_telnet27.py
+  483  pip install readline
+  484  sudo pip install readline
+  485  pip install readline
+  486  deactivate 
+  487  source P3.6.9/bin/activate
+  488  pip install readline
+  489  pip install gnureadline
+  490  deactivate 
+  491  source P2.7.17/bin/activate
+  492  pip install gnureadline
+  493  deactivate 
+  494  source P3.6.9/bin/activate
+  495  ll
+  496  gedit 01_telnet_36.py 
+  497  python 01_telnet_36.py 
+  498  gedit 01_telnet_36.py 
+  499  python 01_telnet_36.py 
+  500  gedit 01_telnet_36.py 
+  501  python 01_telnet_36.py 
+  502  gedit 01_telnet_36.py 
+  503  python 01_telnet_36.py 
+  504  gedit 01_telnet_36.py 
+  505  python 01_telnet_36.py 
+  506  gedit 01_telnet_36.py 
+  507  python 01_telnet_36.py 
+  508  python 01_telnet_36.py
+  509  gedit 01_telnet_36.py 
+  510  python 01_telnet_36.py
+  511  gedit 01_telnet_36.py 
+  512  cat 01_telnet_36.py
+  513  python 01_telnet_36.py
+  514  python
+  515  python 01_telnet_36.py
+  516  history
+  517  cd ~/Documents/PythonDevOps/Python Devops/PythonCode/Telnetlib
+  518  cd ~/Documents/PythonDevOps/Python\ Devops/PythonCode/Telnetlib
+  519  ll
+  520  gedit 01_telnet_36.py 
+  521  wine MobaXterm_Personal_23.3_Preview2.exe 
+  522  source P3.6.9/bin/activate
+  523  gedit 01_telnet_36.py 
+  524  ./01_telnet_36.py 
+  525  python 01_telnet_36.py 
+  526  gedit 01_telnet_36.py
+  527  python 01_telnet_36.py 
+  528  deactivate 
+  529  sudo apt update
+  530  sudo apt install software-properties-common
+  531  sudo add-apt-repository ppa:deadsnakes/ppa
+  532  sudo apt update
+  533  sudo apt install python3.12
+  534  sudo apt update
+  535  sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev wget
+  536  mkdir ./python && cd ./python
+  537  wget https://www.python.org/ftp/python/3.12.0/Python-3.12.0b3.tgz
+  538  tar -xvf Python-3.12.0b3.tgz
+  539  cd Python-3.12.0b3
+  540  ./configure --enable-optimizations
+  541  sudo make install
+  542  ll
+  543  cd .
+  544  cd ..
+  545  virtualenv -p python3.12.0 P3.12.0
+  546  source P3.12.0/bin/activate
+  547  python
+  548  pip install pexpect
+  549  sudo apt-get update && sudo apt-get upgrade
+  550  sudo apt-get install python3.12
+  551  sudo apt-get install python3.12.0
+  552  sudo apt-get install python3.12.0b3
+  553  sudo apt-get install python3
+  554  sudo apt autoremove
+  555  deactivate 
+  556  sudo apt autoremove
+  557  sudo apt-get update && sudo apt-get upgrade
+  558  sudo apt-get install python3
+  559  python3 --version
+  560  python3.12 --version
+  561  python3 --version
+  562  python3 -V
+  563  ls -ls /usr/bin/python*
+  564  ll
+  565  rm -rf python/
+  566  sudo rm -rf python/
+  567  ll
+  568  python --versoin
+  569  python --version
+  570  ll
+  571  rm -rf P3.12.0/
+  572  ll
+  573  sudo apt update&sudo apt upgrade 
+  574  sudo add-apt-repository ppa:deadsnakes/ppa
+  575  apt-get update
+  576  sudo apt-get update
+  577  apt list | grep python3.10
+  578  apt list
+  579  apt list | grep python3.10
+  580  sudo apt-get install python3.10
+  581  sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 1
+  582  sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 2
+  583  sudo update-alternatives --config python3
+  584  python3 -V
+  585  ll
+  586  python3 --version
+  587  python3
+  588  virtualenv -p python3.12 P3.12.0
+  589  ll
+  590  source P3.12.0/bin/activate
+  591  ll
+  592  pip
+  593  pip install paramiko
+  594  pip --version
+  595  deactivate 
+  596  source P3.6.9/bin/activate
+  597  ll
+  598  python
+  599  ./01_telnet_36.py 
+  600  telnet 192.168.253.128 32770
+  601  python 01_telnet_36.py 
+  602  pip install gnureadline
+  603  python 01_telnet_36.py 
+  604  python
+  605  python 01_telnet_36.py 
+  606  python
+  607  python 01_telnet_36.py 
+  608  ./01_telnet_36.py 
+  609  python 01_telnet_36.py install 
+  610  python 01_telnet_36.py
+  611  telnet 192.168.253.128
+  612  telnet 192.168.253.128 23
+  613  ping 192.168.253.128
+  614  telnet 192.168.253.128 32770
+  615  telnet 192.168.253.128
+  616  telnet 192.168.253.128 32770
+  617  python 01_telnet_36.py 
+  618  gedit note
+  619  source P3.6.9/bin/activate
+  620  python3 01_telnet_36.py 
+  621  telnet 192.168.253.128 32770
+  622  python3 01_telnet_36.py 
+  623  python3 01_telnet_3.6.py 
+  624  python3 01_telnet_36.py 
+  625  python3 01_telnet_36.py
+  626  pip install requests
+  627  python 01_telnet_3.6.py 
+  628  python 01_telnet_36.py 
+  629  python 01_telnet_3.6.py 
+  630  wine MobaXterm_Personal_23.3_Preview2.exe 
+  631  python 01_telnet_3.6.py 
+  632  python 01_telnet_36.py 
+  633  source P3.6.9/bin/activate
+  634  python 01_telnet_36.py 
+  635  df -h
+  636  source P3.6.9/bin/activate
+  637  python 01_telnet_36.py 
+  638  source P3.6.9/bin/activate
+  639  python 01_telnet_36.py 
+  640  gedit nono
+  641  source P3.6.9/bin/activate
+  642  python binomo.py 
+  643  telnet 192.168.253.128 32771
+  644  source P3.6.9/bin/activate
+  645  python binomo.py 
+  646  source P3.6.9/bin/activate
+  647  python binomo.py 
+  648  source P3.6.9/bin/activate
+  649  python binomo.py 
+  650  source P3.6.9/bin/activate
+  651  python binomo.py 
+  652  source P3.6.9/bin/activate
+  653  python binomo.py 
+  654  uname -a
+  655  source P3.6.9/bin/activate
+  656  python binomo.py 
+  657  git --version
+  658  git config --global user.name "huy-dang"
+  659  git config --global user.email "2nguy007@gmail.com"
+  660  mkdir myproject
+  661  git init
+  662  cd  myproject
+  663  git init
+  664  ll
+  665  cd .git/
+  666  ll
+  667  cd -
+  668  gedit
+  669  ll
+  670  git status
+  671  git add index.html
+  672  git status
+  673  gedit # hello-world
+  674  Hello World repository for Git tutorial
+  675  This is an example repository for the Git tutoial on https://www.w3schools.com
+  676  gedit README.md
+  677  gedit bluestyle.css
+  678  cat bluestyle.css 
+  679  gedit index.html 
+  680  git add --all
+  681  git status
+  682  git commit -m "First release of Hello World!"
+  683  #commit_not_stage
+  684  gedit index.html 
+  685  git status --short
+  686  git commit -a -m "Updated index.html with a new line"
+  687  git log
+  688  git commit -help
+  689  git -help --all
+  690  git help --all
+  691  git help -a
+  692  git help -g
+  693  git help workflows 
+  694  git help -g
+  695  git help everyday 
+  696  git branch hello-world-images
+  697  git branch
+  698  history
+  699  history >> git.txt
+  700  ll
+  701  cat git.txt
+  702  cd myproject/
+  703  git branch hello-world-images
+  704  git branch
+  705  git checkout hello-world-images 
+  706  ll
+  707  gedit index.html 
+  708  git status
+  709  git add --all
+  710  git status
+  711  git commit -m "Added image to Hello World"
+  712  git log
+  713  git checkout master
+  714  git checkout hello-world-images 
+  715  git checkout master
+  716  ls
+  717  git checkout hello-world-images 
+  718  ls
+  719  git checkout master
+  720  ls
+  721  cat index.html 
+  722  history >> git.txt
